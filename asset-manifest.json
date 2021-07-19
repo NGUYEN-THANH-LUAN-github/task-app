@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/teask-app/static/css/main.af7642f6.chunk.css",
+    "main.js": "/teask-app/static/js/main.1e53c7e2.chunk.js",
+    "main.js.map": "/teask-app/static/js/main.1e53c7e2.chunk.js.map",
+    "runtime-main.js": "/teask-app/static/js/runtime-main.787c5a3c.js",
+    "runtime-main.js.map": "/teask-app/static/js/runtime-main.787c5a3c.js.map",
+    "static/js/2.723982d4.chunk.js": "/teask-app/static/js/2.723982d4.chunk.js",
+    "static/js/2.723982d4.chunk.js.map": "/teask-app/static/js/2.723982d4.chunk.js.map",
+    "index.html": "/teask-app/index.html",
+    "static/css/main.af7642f6.chunk.css.map": "/teask-app/static/css/main.af7642f6.chunk.css.map",
+    "static/js/2.723982d4.chunk.js.LICENSE.txt": "/teask-app/static/js/2.723982d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.787c5a3c.js",
+    "static/js/2.723982d4.chunk.js",
+    "static/css/main.af7642f6.chunk.css",
+    "static/js/main.1e53c7e2.chunk.js"
+  ]
+}
