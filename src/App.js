@@ -10,20 +10,15 @@ class App extends Component {
       task: { text: '', id: uniqid() },
       tasks: [{ text: 'do this', id: uniqid() }, { text: 'do that', id: uniqid() }]
     }
-
-    this.submitTask = this.submitTask.bind(this)
-    this.handleChange = this.handleChange.bind(this)
-    this.deleteTask = this.deleteTask.bind(this)
-    this.updateTask = this.updateTask.bind(this)
   }
 
-  handleChange(e) {
+  handleChange = (e) => {
     this.setState({
       task: { text: e.target.value, id: this.state.task.id }
     })
   }
 
-  submitTask(e) {
+  submitTask = (e) => {
     e.preventDefault()
     let task = this.state.task
     if (task.text === "") task.text = "<empty>"
@@ -33,7 +28,7 @@ class App extends Component {
     })
   }
 
-  deleteTask(e) {
+  deleteTask = (e) => {
     const id = e.target.id
     this.setState({
       tasks: this.state.tasks.filter(task => task.id !== id),
@@ -41,7 +36,7 @@ class App extends Component {
 
   }
 
-  updateTask(id, text) {
+  updateTask = (id, text) => {
     this.setState({
       tasks: this.state.tasks.map(task => {
         return task.id === id ?

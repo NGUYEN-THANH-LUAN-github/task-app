@@ -25,8 +25,7 @@ class EditButton extends Component {
         document.getSelection().collapseToEnd()
 
         const item = textField.parentNode
-        item.style.cssText = "background-color: white"
-        item.style.color = "black"
+        item.style.cssText = "background-color: white; color: black;"
         item.onmouseover = () => {
             item.style.color = "black"
         }
@@ -41,8 +40,7 @@ class EditButton extends Component {
         textField.style.cssText = "padding-right: initial;"
 
         const item = textField.parentNode
-        item.style.cssText = "background-color: initial"
-        item.style.color = "initial"
+        item.style.cssText = "background-color: initial; color: initial;"
         item.onmouseover = () => {
             item.style.color = "rgba(0, 0, 0, 0.2)"
         }
