@@ -2,10 +2,6 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -72,6 +68,10 @@ body {
   text-align: center;
   font-size: 3rem;
   margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .App .content {
@@ -101,6 +101,10 @@ body {
   margin: 5px;
   float: right;
   font-size: 0.8rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .App .content button {

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 * {
     box-sizing: border-box;
-    user-select: none;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -50,6 +49,7 @@ body {
         text-align: center;
         font-size: 3rem;
         margin: 0;
+        user-select: none;
     }
     .content {
         width: 30rem;
@@ -73,6 +73,7 @@ body {
             margin: 5px;
             float: right;
             font-size: 0.8rem;
+            user-select: none;
         }
         button {
             width: 40%;
