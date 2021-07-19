@@ -1,2 +1,2 @@
 # task-app
-[demo](https://nguyen-thanh-luan-github.github.io/teask-app/)
+[demo](https://nguyen-thanh-luan-github.github.io/task-app/)
